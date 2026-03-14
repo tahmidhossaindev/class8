@@ -1,0 +1,141 @@
+/*Common*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans" , sans-serif;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a{
+ text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+     margin: 0;
+    padding: 0;
+    line-height: 0.8;
+
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/*Common*/
+
+
+/*Header*/
+#headerpart{
+    padding: 30px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+}
+
+.logoMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoMenu ul{
+    display: flex;
+}
+
+.logoMenu ul li a{
+    padding:0 15px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    color:#474747;
+    transition: all linear .4s;
+}
+.logoMenu ul li a:hover{
+    color: #FD6E0A;
+   
+}
+
+.hireBtn a{
+    padding: 18px 36px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFF8F3;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.4s;
+    border: 1px solid #FD6E0A;
+}
+
+.hireBtn a:hover{
+    background: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+/*Header*/
+
+/*Banner*/
+
+#bannerbg{
+    background: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 310px;
+    padding-bottom: 180px;
+}
+
+.bannercontent h3{
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+}
+
+.bannercontent h1{
+    font-size: 85px;
+    color: #181818;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+}
+
+.bannercontent p{
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+    width: 585px;
+    line-height: 30px;
+}
+
+.bannerbutton{
+    margin-top: 35px;
+}
+
+.bannerbutton a{ padding: 16px 19px;
+    background: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-right: 30px;
+    border: 1px solid #FD6E0A;
+    transition: .4s;
+}   
+
+.bannerbutton a:hover{background: transparent;
+color: #FD6E0A;
+border: 1px solid #FD6E0A;
+}
