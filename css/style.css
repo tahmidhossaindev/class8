@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Open Sans" , sans-serif;
 }
 
@@ -138,4 +139,82 @@ h1,h2,h3,h4,h5,h6,p{
 .bannerbutton a:hover{background: transparent;
 color: #FD6E0A;
 border: 1px solid #FD6E0A;
+}
+#aboutpart{
+    padding: 150px 0;
+}
+.aboutbox{
+    width: 100%;
+    padding: 150px 150px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    /* box-shadow: 0px 6px 50px 0 #0000001f ; */
+}
+.aboutbox h2{
+    text-align: center;
+    font-size: 35px;
+    color: #181818;
+
+}
+.aboutbox p{
+    text-align: center;
+    margin: 40px 0;
+    line-height: 35px;
+    font-size: 18px;
+    color: #757575;
+}
+.aboutinfoflex{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutinfo h6{
+    font-size: 20px;
+    text-align: center;
+}
+#aboutinfoheading{
+    color: #757575;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+#aboutinfomain{
+    color: #474747;
+    font-weight: 700;
+}
+
+#skillpart{
+    padding: 150px 0;
+}
+
+.skillflex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.skillitem{
+    width: 23%;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0 #0000001f ;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.skillitem h3{
+    margin: 30px 0 20px;
+}
+.skillitem p{
+    line-height: 30px;
+}
+#skilparttitle{
+    margin-bottom: 45px;
+    text-align: center;
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+}
+#skillpartp{
+    margin-bottom: 45px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 18px;
+    color: #757575;
 }
